@@ -1,0 +1,95 @@
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+$(document).ready(function(){
+    $("#up").fadeOut(function(){
+        $(this).hide(4000);
+    });
+     $("#up").fadeIn(function(){
+        $(this).show(6000);
+    });
+     $("#to").fadeOut(function(){
+        $(this).hide(4000);
+    });
+     $("#to").fadeIn(function(){
+        $(this).show(6000);
+    });
+     $("#d").fadeOut(function(){
+        $(this).hide(4000);
+    });
+     $("#d").fadeIn(function(){
+        $(this).show(6000);
+    });
+     $("#e").fadeOut(function(){
+        $(this).hide(4000);
+    });
+     $("#e").fadeIn(function(){
+        $(this).show(6000);
+    });
+    $("#fd").mouseenter(function(){
+        $(this).fadeTo(1000,0.5);
+    });
+    $("#fd").mouseleave(function(){
+        $(this).fadeTo(1000,1);
+});
+$("#gd").mouseenter(function(){
+        $(this).fadeTo(1000,0.5);
+    });
+    $("#gd").mouseleave(function(){
+        $(this).fadeTo(1000,1);
+});
+$("#hd").mouseenter(function(){
+        $(this).fadeTo(1000,0.5);
+    });
+    $("#hd").mouseleave(function(){
+        $(this).fadeTo(1000,1);
+});
+$("#id").mouseenter(function(){
+        $(this).fadeTo(1000,0.5);
+    });
+    $("#id").mouseleave(function(){
+        $(this).fadeTo(1000,1);
+});
+$("#jd").mouseenter(function(){
+        $(this).fadeTo(1000,0.5);
+    });
+    $("#jd").mouseleave(function(){
+        $(this).fadeTo(1000,1);
+});
+$("#kd").mouseenter(function(){
+        $(this).fadeTo(1000,0.5);
+    });
+    $("#kd").mouseleave(function(){
+        $(this).fadeTo(1000,1);
+});
+$("#ld").mouseenter(function(){
+        $(this).fadeTo(1000,0.5);
+    });
+    $("#ld").mouseleave(function(){
+        $(this).fadeTo(1000,1);
+});
+$("#md").mouseenter(function(){
+        $(this).fadeTo(1000,0.5);
+    });
+    $("#md").mouseleave(function(){
+        $(this).fadeTo(1000,1);
+});
+$("#nd").mouseenter(function(){
+        $(this).fadeTo(1000,0.5);
+    });
+    $("#nd").mouseleave(function(){
+        $(this).fadeTo(1000,1);
+});
+$(":input:text").focusin(function(){
+        $(this).animate({zoom:'150%'},"slow");
+    });
+    $(":input:text").focusout(function(){
+       $(this).animate({zoom:'100%'},"slow");
+    });
+    $("#fl").click(function(){
+        alert("Please Fill Up this... ...");
+    });
+});
+
