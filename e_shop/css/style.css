@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 12, 2015, 2:23:59 AM
+    Author     : Surabi
+*/
+
+body
+{
+    background-image: url(../images/c.gif);
+    background-attachment: fixed;
+}
+.wrapper
+{
+    background-image: url(../images/bg.png);
+}
+
+.logo
+{
+    height: 100px;
+}
+nav h4
+{
+    padding-top: 15px;
+    color: white;
+}
+.item img
+{
+    width: 100%;
+    height: auto;
+}
+.offer img
+{
+    width: 100%;  
+}
+.product h1
+{
+    color: white;
+}
+.contact h1
+{
+    color: white;
+}
+.contact h2
+{
+    color: white
+}
+.contact p
+{
+    color: white;
+}
+
+.red{
+    background: #cccccc;
+    border: 1px beige;
+    padding: 5px 10px;
+    margin: 5px 5px;
+    color: red;
+    font-size: 15px;
+}
+.yellow{
+    background: #cccccc;
+    border: 1px beige;
+    padding: 5px 10px;
+    margin: 5px 5px;
+    color: yellow;
+    font-size: 15px;
+
+}
+.green{
+    background: #cccccc;
+    border: 1px beige;
+    padding: 5px 10px;
+    margin: 5px 5px;
+    color: greenyellow;
+    font-size: 15px;
+}
+    .keep h1
+    {
+        color: white;
+    }
+    .keep #btn
+    {
+        color: white;
+    }
+    .keep #btn1
+    {
+        color: white;
+    }
+    footer h3
+    {
+        color: white;
+    }
+    footer h3 a
+    {
+        color: white;
+    }
+    footer h4
+    {
+        color: white;
+    }
+    footer p
+    {
+        color: white;
+    }
